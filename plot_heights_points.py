@@ -9,9 +9,7 @@ family_member_no = zeros(4)
 family_member_no[0] = 0; family_member_no[1] = 1
 family_member_no[2] = 2; family_member_no[3] = 3
 
-plt.plot(family_member_no, h, family_member_no, H)
+plt.plot(h, '*')
 plt.xlabel('Family member number')
 plt.ylabel('Height (m)')
-plt.legend('This is some legend')
-plt.title('Heights over familys members numbers')
 plt.show()
