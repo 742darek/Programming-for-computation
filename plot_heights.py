@@ -15,3 +15,7 @@ plt.ylabel('Height (m)')
 plt.legend('This is some legend')
 plt.title('Heights over familys members numbers')
 plt.show()
+plt.savefig('some_plot.png') # PNG format
+plt.savefig('some_plot.pdf') # PDF format
+plt.savefig('some_plot.jpg') # JPG format
+plt.savefig('some_plot.eps') # Encanspulated PostScript format
